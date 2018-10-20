@@ -1,0 +1,8 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"		"touhou/ring_blur" 
+	"$vertexcolor" 		1 
+	"$vertexalpha" 		1
+	"$additive" 		1
+	"$nolod"			1
+} 

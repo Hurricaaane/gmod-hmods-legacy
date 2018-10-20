@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "ha3mats/models/tack"
+	"$bumpmap" "ha3mats/models/tack_normal"
+	
+	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
+	//"$detailscale" "5"
+	//"$detailblendfactor" .01
+	//"$detailblendmode" 6
+	
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$lightwarptexture" "ha3mats/models/weapon_lightwarp"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[2 1 5]"
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	
+}

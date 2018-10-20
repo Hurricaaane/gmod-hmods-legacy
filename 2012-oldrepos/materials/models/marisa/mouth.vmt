@@ -1,0 +1,10 @@
+"Teeth"
+{
+	"$basetexture" "models/marisa/mouth"
+	"$clientshader" "MouthShader"
+	"$model" 1
+	"$halflambert" 1
+	"$nodecal" "1"
+
+	"$phongexponent" "100"
+}

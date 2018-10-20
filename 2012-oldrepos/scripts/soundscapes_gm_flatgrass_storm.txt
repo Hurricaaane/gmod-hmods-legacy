@@ -1,0 +1,64 @@
+"ep2_radiotower.courtyard_hunters"
+{
+
+/// - begin portal storm
+	"dsp"	"1"
+	
+	"playsoundscape"
+	{
+		"name"	"ep1.citadel_critical_outside"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"ep1.util_heavy_wind_and_destruction"
+		"volume"	"0.9"
+	}
+
+	"playrandom"
+	{
+		"time"		"8,20"
+		"volume"	"0.2,0.4"
+		"pitch"		"95,105"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+
+		"rndwave"
+		{
+			"wave"		"ambient/levels/streetwar/building_rubble1.wav"
+			"wave"		"ambient/levels/streetwar/building_rubble2.wav"
+			"wave"		"ambient/levels/streetwar/building_rubble3.wav"
+			"wave"		"ambient/levels/streetwar/building_rubble4.wav"
+			"wave"		"ambient/levels/streetwar/building_rubble5.wav"	
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\levels\outland\OL01Portal_Loop_Stage01.wav"
+		"pitch"		"100"
+		"position"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\levels\outland\OL01Portal_Loop_Stage01.wav"
+		"pitch"		"100"
+	}
+	/// -end portal storm
+
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"pitch"		"100"
+		"wave"		"ambient/levels/city/citadel_critical_loop1.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.light_forest"
+		"volume"	"0.8"
+	}
+}

@@ -1,0 +1,57 @@
+"Water"
+{
+
+	"<dx90"
+	{
+		"$fallbackmaterial" "nature/water_riverbed04_dx8"
+	}
+
+	"$abovewater" 1
+	"%compilewater" 1
+	"%compilenolight" 1
+	"$reflectentities" 1
+	"%tooltexture" "nature/water_frame01_normal"
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "1.5"
+//	"$refractamount" "0.6"
+
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" "1"
+//	"$reflectamount" "0.2"
+	"$reflecttint" "[.7 .9 1]"
+
+	"$scale" "[1 1]"
+
+	"$dudvmap" "dev/water_normal"
+	"$normalmap" "dev/water_normal"
+
+//	"$bumpmap" "nature/water_frame01_dudv"
+//	"$normalmap" "nature/water_frame01_normal"
+
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$envmapsaturation" "[1 1 1]"
+//	"$envmaptint" "[.2 .5 .8]"
+	"$envmaptint" "[1 1 1]"
+
+	"$surfaceprop" "water"
+	"$bottommaterial" "gm_flatgrass_storm/swimmingpool_underwater"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{145 217 255}"
+//	"$fogcolor" "{15 32 36}"
+//	"$fogcolor" "{22 47 53}"
+	"$fogstart" 8000.00
+	"$fogend" 16000.00
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+}

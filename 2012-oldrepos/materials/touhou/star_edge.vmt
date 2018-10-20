@@ -1,0 +1,8 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"		"touhou/star_edge" 
+	"$vertexcolor" 		1 
+	"$vertexalpha" 		1
+	"$additive" 		1
+	"$nolod"			1
+} 

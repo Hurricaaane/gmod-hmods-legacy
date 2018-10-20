@@ -1,0 +1,38 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "gm_tinyconstruct/p2_concrete_vario5"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$bumpmap" "gm_tinyconstruct/p2_concrete_vario1_bumpmap"
+
+        	"$detail" "detail\detail_concrete_01"
+		"$detailscale" "4.25"
+		"$detailblendfactor" .35
+		"$detailblendmode" 0
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "gm_tinyconstruct/p2_concrete_vario1_bumpmap"
+
+        	"$detail" "detail\detail_concrete_01"
+		"$detailscale" "4.25"
+		"$detailblendfactor" .35
+		"$detailblendmode" 0
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$bumpmap" "gm_tinyconstruct/p2_concrete_vario1_bumpmap"
+		"$nodiffusebumplighting" 1
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basealphaenvmapmask" 1
+	}
+}

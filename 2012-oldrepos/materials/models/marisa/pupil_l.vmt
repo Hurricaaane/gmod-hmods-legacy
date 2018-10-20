@@ -1,0 +1,5 @@
+"Eyeball"
+{
+	"$basetexture" "models/marisa/pupil_l"
+	"$nodecal" "1"
+}
